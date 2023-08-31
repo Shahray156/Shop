@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .cart {
+        grid-template-columns: repeat(8, 1fr);
+      }
+      .cart__form {
+        height: 556px;
+        row-gap: 64px;
+      }
+      .form__heading {
+        text-align: center;
+      }
+    }
